@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'jerrywan-api.herokuapp.com',
+    '127.0.0.1'
 ]
 
 CORS_ALLOWED_ORIGINS = [
