@@ -26,15 +26,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'jerrywan-api.herokuapp.com',
-    '127.0.0.1'
+    '127.0.0.1',
 ]
 
 CORS_ALLOWED_ORIGINS = [
 'https://jerrywan.netlify.app',
+'http://localhost:3000/',
 ]
 
 # Application definition
